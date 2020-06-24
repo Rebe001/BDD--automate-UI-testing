@@ -3,11 +3,11 @@ import org.openqa.selenium.support.FindBy;
 
 public class FormPage {
 
-    @FindBy (id = "user")
-    private WebElement user;
+    @FindBy (id = "product")
+    private WebElement product;
 
-    @FindBy (id = "password")
-    private WebElement password;
+    @FindBy (id = "quantity")
+    private WebElement quantity;
 
     @FindBy (id = "save")
     private WebElement save;
@@ -15,9 +15,9 @@ public class FormPage {
     @FindBy (id = "message")
     private WebElement message;
 
-    public WebElement getUser(){return user; }
+    public WebElement getProduct(){return product; }
 
-    public WebElement getPassword(){return password;}
+    public WebElement getQuantity(){return quantity;}
 
     public WebElement getSave(){return save; }
 

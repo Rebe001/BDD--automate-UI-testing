@@ -17,7 +17,6 @@ public class LoginPage {
         return userTextBox;
     }
 
-
     public WebElement getPasswordTextBox() {
         return passwordTextBox;
     }

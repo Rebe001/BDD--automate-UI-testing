@@ -20,22 +20,22 @@ public class FormPage_Library {
      * Set user to desired value
      * @param user
      */
-    @When("^FormPage set user to \"([^\"]*)\"$")
-    public void FormPageSetUserTo(String user) {
-        logger.info("FormPage set user to {}", user);
-        formPage.getUser().clear();
-        formPage.getUser().sendKeys(user);
+    @When("^FormPage set product to \"([^\"]*)\"$")
+    public void FormPageSetProductTo(String product) {
+        logger.info("FormPage set product to {}", product);
+        formPage.getProduct().clear();
+        formPage.getProduct().sendKeys(product);
     }
 
     /**
      * Set password to desired value
      * @param password
      */
-    @When("^FormPage set password to \"([^\"]*)\"$")
-    public void FormPageSetPasswordTo(String password) {
-        logger.info("FormPage set password to {}", password);
-        formPage.getPassword().clear();
-        formPage.getPassword().sendKeys(password);
+    @When("^FormPage set quantity to \"([^\"]*)\"$")
+    public void FormPageSetQuantityTo(String quantity) {
+        logger.info("FormPage set quantity to {}", quantity);
+        formPage.getQuantity().clear();
+        formPage.getQuantity().sendKeys(password);
     }
 
   /**
