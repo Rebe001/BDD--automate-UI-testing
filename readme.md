@@ -19,9 +19,11 @@ This is a simplied architecture diagram based on my work project. It shows how f
 * [Author](#author)
 
 
-## Flow diagram of all
+## Flow chart of app
 
 This is a simplied flow diagram of an app on UI layer. It demonstrates a sequence of pages will be prompted by various actions. 
+
+The flows hightlighted in blue is the only one that will be included in `TestFormPage.feature`.
 <br> 
 ![alt text](https://github.com/Rebe001/BDD-automate-UItesting/blob/master/images/flowChartFormPage.png?raw=true)
 
